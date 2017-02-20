@@ -66,7 +66,7 @@ Take note of the server URL.
 
 2. In the app go to Messenger tab (or add product and then add Messenger) and click Setup Webhook. Here you will put in the URL of your Heroku server(Typically https://<Heroku project>.herokuapp.com/webhook) and a token in Step 5 of *Build the server*. Make sure to check all the subscription fields.
 
-3. [Create a Facebook Page](www.facebook.com/pages/create/)
+3. [Create a Facebook Page](https://www.facebook.com/pages/create/)
 
 4. Get a Page Access Token and save this somewhere. 
 
