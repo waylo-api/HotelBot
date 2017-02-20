@@ -84,7 +84,7 @@ Take note of the server URL.
 
 ### *Get Waylo Hotel API key*
 
-1. First, sign up for a free account at [Waylo developer account](http://thewaylo.com/dev/register)
+1. First, sign up for a free account at [Waylo developer account](http://waylodev.herokuapp.com/register)
 
 You'll need the Page Access Token in Step 4 of *Setup the Facebook App*
 
