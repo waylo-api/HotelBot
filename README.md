@@ -72,7 +72,7 @@ Take note of the server URL.
 
     ![Page Access Token](https://abhaykashyap.com/media/ckeditor/2016/11/30/fb_token_generation.png)
     
-5. [subscribe your page to the App](http://imgur.com/a/PPL5t). 
+5. [Subscribe your page to the App](http://imgur.com/a/PPL5t). 
 
 6. Add config parameters
 
