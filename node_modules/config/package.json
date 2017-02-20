@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "config@^1.20.4",
+        "scope": null,
+        "escapedName": "config",
+        "name": "config",
+        "rawSpec": "^1.20.4",
+        "spec": ">=1.20.4 <2.0.0",
+        "type": "range"
+      },
+      "/home/angik/code/roamamore/apitestbot/hotelbot"
+    ]
+  ],
+  "_from": "config@>=1.20.4 <2.0.0",
+  "_id": "config@1.25.1",
+  "_inCache": true,
+  "_location": "/config",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/config-1.25.1.tgz_1485982653257_0.24003130197525024"
+  },
+  "_npmUser": {
+    "name": "lorenwest",
+    "email": "npm@lorenwest.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "config@^1.20.4",
+    "scope": null,
+    "escapedName": "config",
+    "name": "config",
+    "rawSpec": "^1.20.4",
+    "spec": ">=1.20.4 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/config/-/config-1.25.1.tgz",
+  "_shasum": "72ac51cde81e2c77c6b3b66d0130dae527a19c92",
+  "_shrinkwrap": null,
+  "_spec": "config@^1.20.4",
+  "_where": "/home/angik/code/roamamore/apitestbot/hotelbot",
+  "author": {
+    "name": "Loren West",
+    "email": "open_source@lorenwest.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lorenwest/node-config/issues"
+  },
+  "dependencies": {
+    "json5": "0.4.0"
+  },
+  "description": "Configuration control for production node deployments",
+  "devDependencies": {
+    "coffee-script": ">=1.7.0",
+    "cson": "^3.0.1",
+    "hjson": "^1.2.0",
+    "js-yaml": "^3.2.2",
+    "properties": "~1.2.1",
+    "toml": "^2.0.6",
+    "underscore": "^1.8.3",
+    "vows": ">=0.8.1",
+    "x2js": "^2.0.1"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dist": {
+    "shasum": "72ac51cde81e2c77c6b3b66d0130dae527a19c92",
+    "tarball": "https://registry.npmjs.org/config/-/config-1.25.1.tgz"
+  },
+  "engines": {
+    "node": ">0.4.x"
+  },
+  "gitHead": "c226283619b2f759ff236d5e1f65055a3c39ba54",
+  "homepage": "http://lorenwest.github.com/node-config",
+  "keywords": [
+    "conf",
+    "config",
+    "configuration",
+    "node-config",
+    "config-node",
+    "env",
+    "environment"
+  ],
+  "license": "MIT",
+  "main": "./lib/config.js",
+  "maintainers": [
+    {
+      "name": "lorenwest",
+      "email": "npm@lorenwest.com"
+    },
+    {
+      "name": "markstos",
+      "email": "mark@rideamigos.com"
+    }
+  ],
+  "name": "config",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lorenwest/node-config.git"
+  },
+  "scripts": {
+    "test": "./node_modules/vows/bin/vows test/*.js --spec"
+  },
+  "version": "1.25.1"
+}
