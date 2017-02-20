@@ -80,7 +80,7 @@ Take note of the server URL.
    ```
 
    "appSecret" is your FB App Secret in Step 1 of "Setup the Facebook App". "pageAccessToken" is the Page Access Token you noted in the previous step. 
-    ```
+    
 
 ### *Get Waylo Hotel API key*
 
