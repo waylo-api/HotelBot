@@ -1,7 +1,7 @@
 {
-    "appSecret": "",
-    "pageAccessToken" : "",
-    "validationToken": "",
-    "serverURL": "",
-    "wayloKey": ""
+    "appSecret": "<Add your appSecret>",
+    "pageAccessToken" : "<Add your pageAccessToken>",
+    "validationToken": "<Add your validationToken>",
+    "serverURL": "<Add your server URL(eg https://<example>.herokuapp.com)",
+    "wayloKey": "<Add your waylo API KEY>"
 }
