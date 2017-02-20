@@ -14,7 +14,7 @@ Creating this version will give you a Facebook Messenger chat bot.
 
 ### *Build the server*
 
-1. Create an app on heroku.com or your favorite server
+1. Create an app on [heroku.com](https://www.heroku.com/) or your favorite server
 
     ![Heroku](http://nicelydone.club/wp-content/uploads/2016/08/nicelydone-heroku-create.png)
 Take note of the server URL.
@@ -22,7 +22,7 @@ Take note of the server URL.
 2. Create a new folder Hotelbot and clone this repo
 
     ```
-    sudo git clone https://github.com/waylo-api/HotelBot.git
+    git clone https://github.com/waylo-api/HotelBot.git
     ```
 
 3. Add heroku remote 
@@ -54,23 +54,27 @@ Take note of the server URL.
 
     ```
     git add .
-    git commit --message "first commit"
+    git commit -am "first commit"
     git push heroku master    
     ``` 
 
 ### *Setup the Facebook App*
 
-1. Create or configure a Facebook App here https://developers.facebook.com/apps/. Take note of the App Secret.
+1. Create or configure a Facebook App here https://developers.facebook.com/apps/. Take note of the App Secret in the App Dashboard.
 
-2. In the app go to Messenger tab then click Setup Webhook. Here you will put in the URL of your Heroku server and a token in Step 5 of *Build the server*. Make sure to check all the subscription fields.
+    ![App Dashboard](http://i.imgur.com/l5ly27B.jpg)
 
-3. Create a Facebook Page and subscribe it to the App. 
+2. In the app go to Messenger tab (or add product and then add Messenger) and click Setup Webhook. Here you will put in the URL of your Heroku server(Typically https://<Heroku project>.herokuapp.com/webhook) and a token in Step 5 of *Build the server*. Make sure to check all the subscription fields.
+
+3. [Create a Facebook Page](www.facebook.com/pages/create/)
 
 4. Get a Page Access Token and save this somewhere. 
 
     ![Page Access Token](https://abhaykashyap.com/media/ckeditor/2016/11/30/fb_token_generation.png)
+    
+5. [subscribe your page to the App](http://imgur.com/a/PPL5t). 
 
-5. Add config parameters
+6. Add config parameters
 
    Edit config/default.json and add the following parameters
 
@@ -99,7 +103,7 @@ You'll need the Page Access Token in Step 4 of *Setup the Facebook App*
 
     ```
     git add .
-    git commit --message "first commit"
+    git commit -am "Waylo API first commit"
     git push heroku master    
     ``` 
 4. You should be all set. Open your Facebook page  and start chatting with your new hotel booking bot! Remember you that earn on every hotel booking made through your bot.
