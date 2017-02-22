@@ -1,6 +1,6 @@
 # HotelBot built using the Waylo API
 
-You can clone this repo to create your own hotel booking Facebook Messenger chatbot in less than 10 minutes. The hotel bookings are provided by [Waylo API](http://thewaylo.com/dev) and you earn a share of the revenue.
+You can clone this repo to create your own hotel booking Facebook Messenger chatbot in 10 minutes. The hotel bookings are provided by [Waylo API](http://dev.thewaylo.com) and you earn a share of the revenue.
 
 If you want to test out a HotelBot first, try [Waylo Bot](https://m.me/thewaylo)
 
@@ -9,6 +9,30 @@ If you want to test out a HotelBot first, try [Waylo Bot](https://m.me/thewaylo)
 Creating this version will give you a Facebook Messenger chat bot. 
 
 ![Demo](http://i.imgur.com/I9MgSI8.gif)
+
+You can read our [FAQ](http://dev.thewaylo.com/faq.html) to learn more about the monetization. The average earnings per booking from your bot is ~ USD 10.
+
+# How is this possible in 10 minutes?
+
+This is an example of bot to bot communcation. You only set up a simple FB bot with a button. Waylo's API takes care of the Natural Language Understanding, getting access to inventory and handling payments. 
+
+# Requirements
+
+You need to edit 5 parameters in config/default.json.
+
+    ```
+    {
+    "appSecret": "<Add your appSecret>",
+    "pageAccessToken" : "<Add your pageAccessToken>",
+    "validationToken": "<Add your validationToken>",
+    "serverURL": "<Add your server URL(eg https://<example>.herokuapp.com)",
+    "wayloKey": "<Add your waylo API KEY>"
+    }
+    ```
+    
+ If you have set up a few bots, create a FB app, page and head over to [Waylo Developer site](http://dev.thewaylo.com) and create your API key. You should be good to go. If not, you can follow the steps outlined here.
+ 
+You need to node, npm and git installed to follow along.
 
 ## Get Started
 
@@ -88,7 +112,7 @@ Take note of the server URL.
 
 ### *Get Waylo Hotel API key*
 
-1. First, sign up for a free account at [Waylo developer account](http://waylodev.herokuapp.com/register)
+1. First, sign up for a free account at [Waylo developer account](http://dev.thewaylo.com)
 
 You'll need the Page Access Token in Step 4 of *Setup the Facebook App*
 
@@ -106,7 +130,7 @@ You'll need the Page Access Token in Step 4 of *Setup the Facebook App*
     git commit -am "Waylo API first commit"
     git push heroku master    
     ``` 
-4. You should be all set. Open your Facebook page  and start chatting with your new hotel booking bot! Remember you that earn on every hotel booking made through your bot.
+4. You should be all set. Open your Facebook page  and start chatting with your new hotel booking bot! Congrats you have just enabled bot monetization.
 
 
 ## License
