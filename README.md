@@ -18,7 +18,7 @@ This is an example of bot to bot communcation. You only set up a simple FB bot w
 
 # Requirements
 
-You need to edit 5 parameters in config/default.json.
+Edit 5 parameters in config/default.json.
 
     ```
     {
@@ -32,7 +32,9 @@ You need to edit 5 parameters in config/default.json.
     
  If you have set up a few bots, create a FB app, page and head over to [Waylo Developer site](http://dev.thewaylo.com) and create your API key. You should be good to go. If not, you can follow the steps outlined here.
  
-You need to node, npm and git installed to follow along.
+ You can see the API request [Here](https://github.com/waylo-api/HotelBot/blob/master/app.js#L348-375)
+ 
+You would need node, npm and git installed to follow along.
 
 ## Get Started
 
