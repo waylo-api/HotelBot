@@ -1,5 +1,5 @@
 {
-  "name": "Waylo API client",
+  "name": "wayloapiclient",
   "version": "1.0.0",
   "description": "Build a hotel booking chat bot in <10 minutes",
   "main": "app.js",
